@@ -1,0 +1,32 @@
+/*login_head*/
+.login_head {height:736px; width:100%; background:url("../../img/login-bg.gif") no-repeat center;}
+    .login_head img {padding-top:12px; margin-left:139px;}
+    .login_head form {width:280px; height:487px; background:rgba(255,255,255,.5); float:right; margin-right:190px; margin-top:55px; padding:20px 30px 0 30px;}
+        .login_head form p:first-child {float:left; color:#333333; margin-bottom:12px;}
+        .login_head form .loginForm_l {float:left; color:#fea417; text-decoration:underline; margin-bottom:12px;}
+        .login_head form .loginForm_r {float:right; text-decoration:underline; color:#fea417; margin-bottom:12px;}
+
+        /*username*/
+        .login_head form .loginForm_userName_wrap {width:280px; height:40px; border:1px #c5c8c6 solid; position:relative; overflow:hidden; margin-bottom:30px;}
+        .login_head form .loginForm_icon_1 {display:inline-block; width:22px; height:22px; background:url("../../img/login_form_bg.png") -63px 0 no-repeat; vertical-align:middle; position:absolute; top:10px; left:8px;}
+        .login_head form .loginForm_userName {width:280px; height:40px;  margin-bottom:30px; color:#c5c8c6; font-size:16px; text-indent:38px; background:rgba(255,255,255,.5); position:absolute; top:0; left:0; border:none;}
+
+        /*password*/
+        .login_head form .loginForm_userPassword_wrap {width:280px; height:40px; position:relative; border:1px #c5c8c6 solid; overflow:hidden; margin-bottom:30px;}
+        .login_head form .loginForm_icon_2 {display:inline-block; width:22px; height:22px; background:url("../../img/login_form_bg.png") -61px -45px no-repeat; position:absolute; top:10px; left:8px;}
+        .login_head form .loginForm_userPassword {width:280px; height:40px; border:none; margin-bottom:30px; color:#c5c8c6; font-size:16px; text-indent: 38px; background:rgba(255,255,255,.5);}
+
+        /*userCode*/
+        .login_head form .loginForm_userCode_wrap {width:280px; height:40px; position:relative; border:1px #c5c8c6 solid; margin-bottom:30px;}
+        .login_head form .loginForm_userCode {width:280px; height:40px; border:none; margin-bottom:30px; color:#c5c8c6; font-size:16px; text-indent:16px; background:rgba(255,255,255,.5); position:absolute;}
+        .login_head form .loginForm_userCode_icon1 {width:16px; height:16px; background:url("../../img/public-bg.png") -65px -225px no-repeat; position:absolute; top:52px; display:none;}
+        .login_head form .loginForm_userCode_wrap p {position:absolute; top:50px; left:25px; color:red; font-size:12px; display:none;}
+        .login_head form .loginForm_userCode_box {height:30px; width:80px; background:pink; border:1px #00f solid; position:absolute; top:3px; right:20px; line-height:30px; text-align:center;}
+
+        .login_head form p {font-size:14px; color:#888888;}
+        .login_head form p input {margin-right:10px;}
+        .login_head form p a {float:right; font-size:14px; color:#888888;}
+        .login_head form .loginForm_userLogin {width:280px; height:46px; background:#d10048; border-radius:3px; font-size:24px; color:#fff; line-height:46px; text-align:center; margin-top:24px; margin-bottom:41px;}
+            .login_head form dl dd {float:left; margin-top:10px; margin-right:20px; color:#888888; font-size:14px;}
+            .login_head form dl dt a:first-child {width:33px; height:26px; background:url("../../img/login_form_bg.png") -47px -114px no-repeat; float:left; margin-right:30px;}
+            .login_head form dl dt a:last-child {width:24px; height:27px; background:url("../../img/login_form_bg.png") -56px -171px no-repeat; float:left;}

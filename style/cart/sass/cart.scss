@@ -1,0 +1,51 @@
+.cart_info {
+  width:922px;
+  background:#ffffff;
+  padding:25px 30px 40px 30px;
+  p {
+    height:20px;
+    background:url("../../../img/cart_icon.png") no-repeat -221px 0;
+    text-indent:34px;
+    color:#888888;
+    font-size:16px;
+    margin-bottom:17px;
+  }
+  table {
+    width:922px;
+    margin-bottom:20px;
+    border:1px #eeeeee solid;
+  }
+  .cart_info_account {
+    height:48px;
+    background:#fafafa;
+    line-height:48px;
+    input {
+      float:left;
+      margin-top:17px;
+      margin-left:15px;
+    }
+    i {
+      float:left;
+      font-style:normal;
+      margin-right:24px;
+    }
+    a {
+      float:left;
+    }
+    span {
+      float:left;
+      margin:0 8px;
+    }
+    button {
+      float:right;
+      width:145px;
+      height:48px;
+      background:#f43777;
+      border:none;
+      border-radius:3px;
+      color:#ffffff;
+      font-size:19px;
+      cursor:pointer;
+    }
+  }
+}

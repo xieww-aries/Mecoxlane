@@ -1,0 +1,47 @@
+/*register_head*/
+.register_head {height:736px; width:100%; background:url("../../img/login-bg.gif") no-repeat center;}
+    .register_head img {padding-top:2px; margin-left:139px;}
+    .register_head form {width:280px; height:506px; background:rgba(255,255,255,0.5); float:right; margin-right:190px; margin-top:55px; padding:20px 30px 0 30px; position:relative;}
+    .register_head form p:first-child {float:left; color:#333333;}
+    .register_head form .registerForm_l {float:left; color:#fea417; text-decoration:underline; margin-bottom:12px;}
+    .register_head form .registerForm_r {float:right; text-decoration:underline; color:#fea417; margin-bottom:12px;}
+    .register_head form p input {float:left; margin-right:15px; color:#cccccc; font-size:16px;}
+    .register_head form p a {float:left;}
+    .register_head form p a:last-child {text-decoration:underline; color:#f75296;}
+    .register_head form .register_userRegister {width:280px; height:46px; background:#d10048; border-radius:3px; font-size:24px; color:#fff; line-height:46px; text-align:center; margin-top:30px; margin-bottom:41px; position:absolute;}
+
+    /*userPhone*/
+    .register_head form .registerForm_userPhone_wrap {width:280px; height:40px; border:1px #c5c8c6 solid; margin-bottom:60px; position:relative; top:30px;}
+    .register_head form .registerForm_userPhone {width:280px; height:40px; border:none; background:rgba(255,255,255,.5); text-indent:38px; position:absolute; top:0; left:0;}
+    .register_head form .registerForm_userPhone_icon_1 {width:22px; height:22px; background:url("../../img/public-bg.png") -63px 0 no-repeat; position:absolute; left:6px; top:10px;}
+    .register_head form .registerForm_userPhone_wrap p {position:absolute; top:45px; left:30px; color:red; display:none;}
+    .register_head form .registerForm_userPhone_icon_1_1 {position:absolute; background:url("../../img/public-bg.png") -65px -225px no-repeat; width:16px; height:16px; top:47px; display:none;}
+
+    /*userCode*/
+    .register_head form .registerForm_userCode_wrap {width:280px; height:40px; background:rgba(255,255,255,.5); border:1px #c5c8c6 solid; margin-bottom:30px; position:relative;}
+    .register_head form .registerForm_userCode {width:280px; height:40px; border:none; text-indent:16px; position:absolute; left:0; top:0; background:rgba(255,255,255,.5);}
+    .register_head form .registerForm_userCode_icon_1 {position:absolute; background:url("../../img/public-bg.png") -65px -225px no-repeat; width:16px; height:16px; top:47px; display:none;}
+    .register_head form .registerForm_userCode_wrap p {position:absolute; top:45px; left:30px; color:red; display:none;}
+    .register_head form .registerForm_userCode_box {height:30px; width:60px; position:absolute; right:20px; top:3.5px; border:1px #00f solid; line-height:30px; text-align:center;}
+
+
+    /*userPhoneCode*/
+    .registerForm_userPhoneCode_wrap {width:280px; height:40px; position:relative; border:1px #c5c8c6 solid; margin-bottom:30px; }
+    .register_head form .registerForm_userPhoneCode {width:280px; height:40px; background:rgba(255,255,255,.5); text-indent:38px; border:none;}
+    .register_head form .registerForm_userPhoneCode_icon_2 {width:22px; height:22px; position:absolute; top:10px; left:6px; background:url("../../img/public-bg.png") -61px -45px no-repeat;}
+    .register_head form .registerForm_userPhoneCode_box {width:80px; height:30px; background:pink; border:1px #000 solid; position:absolute; right:10px; top:3px; line-height:30px; text-align:center;}
+
+    /*userPassword*/
+    .register_head form .registerForm_userPassword_wrap {width:280px; height:40px; position:relative; border:1px #c5c8c6 solid; margin-bottom:30px;}
+    .register_head form .registerForm_userPassword {width:280px; height:40px; background:rgba(255,255,255,.5); border:none; text-indent:38px;}
+    .register_head form .registerForm_userPassword_icon_3 {width:22px; height:22px; position:absolute; left:6px; top:10px; background:url("../../img/public-bg.png") -61px -45px no-repeat;}
+    .register_head form .registerForm_userPassword_wrap p {position:absolute; top:45px; left:30px; color:red; display:none;}
+    .register_head form .registerForm_userPassword_icon_3_1 {position:absolute; background:url("../../img/public-bg.png") -65px -225px no-repeat; width:16px; height:16px; top:47px; display:none;}
+
+
+    /*userConfirmPassword*/
+    .register_head form .registerForm_userConfirmPassword_wrap {width:280px; height:40px; position:relative; border:1px #c5c8c6 solid; margin-bottom:30px;}
+    .register_head form .registerForm_userConfirmPassword {width:280px; height:40px; background:rgba(255,255,255,.5); border:none; text-indent:38px;}
+    .register_head form .registerForm_userConfirmPassword_icon4 {width:22px; height:22px; position:absolute; left:6px; top:10px; background:url("../../img/public-bg.png") -61px -45px no-repeat;}
+    .register_head form .registerForm_userConfirmPassword_wrap p {position:absolute; top:45px; left:30px; color:red; display:none;}
+    .register_head form .registerForm_userConfirmPassword_icon4_1 {position:absolute; background:url("../../img/public-bg.png") -65px -225px no-repeat; width:16px; height:16px; top:47px; display:none;}

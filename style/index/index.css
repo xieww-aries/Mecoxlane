@@ -1,0 +1,3 @@
+/*banner*/
+.banner {height:352px; position:relative; width:982px; z-index:1;}
+    .banner img {width:982px; height:352px; z-index:2;}

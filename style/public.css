@@ -1,0 +1,70 @@
+/*整体布局样式*/
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img {margin:0;padding:0;}
+html {font-family:"Helvetica Neue",Helvetica,STHeiTi,Arial,sans-serif; font-size:12px;}
+body {background:#f0f0f0;}
+img {display:block;}
+a {text-decoration:none; display:block; color:#888888;}
+li {list-style:none;}
+.layout {width:982px; margin:0 auto;}
+/*nav*/
+.nav {width:74px; height:100%; background:#d10048; position:fixed; z-index:2;}
+    .nav li.menuItemli {width:74px; height:45px; text-align:center; background:url("../img/menuLine.png") center bottom no-repeat;}
+    .nav li.menuItemli2 {padding-top:5px; text-align:center; width:74px; height:45px; background:url("../img/menuLine.png") center bottom no-repeat;}
+    .nav li:first-child {padding-top:10px;}
+        .nav li.menuItemli a {display:block; width:74px; height:44px; color:#ffffff; text-align:center; line-height:44px;}
+        .nav li.menuItemli2 a {display:block; line-height:normal; width:74px; height:44px; color:#ffffff;}
+    .nav li a:hover {background:#db366f;}
+    /*二级菜单*/
+    .nav .subNav {width:0; height:0; position:fixed; left:74px; top:0; background:rgb(171,171,171); overflow:hidden;}
+        .nav .subNav li {border-bottom:1px rgb(185,184,183) solid; height:43px; width:74px;}
+        .nav .subNav li:first-child {width:74px; height:44px;}
+            .nav .subNav li a {display:block; height:44px; width:74px; color:#fff; line-height:44px; text-align:center; font-size:12px;}
+
+/*head*/
+.head {height:70px;}
+    .head .logo {margin-top:19px; float:left;}
+    .head .head_r {width:377px; float:right; margin-top:33px;}
+        .head .head_r a {float:left; color:#888888; font-size:12px;}
+        .head .head_r span {float:left; margin:0 5px; color:#a288a2;}
+        .head .head_r a:first-child {height:20px; width:20px; background:url("../img/public-bg.png") 0 -1px no-repeat;}
+        .head .head_r a:nth-last-child(2) {width:20px; height:17px; background:url("../img/public-bg.png") 0 -48px no-repeat; margin-right:15px;}
+
+/*rightSider*/
+.rightSider {width:54px; position:fixed; right:10px; top:65px;}
+.consult {height:92px; width:231px; position:fixed; right:149px; top:156px; opacity:0; filter:alpha(opacity=0);}
+
+/*bottom*/
+.bottom {height:320px; margin-top:75px; border-bottom:1px #dce0e3 solid;}
+    .bottom_t {height:120px;}
+    .bottom_t dl {float:left; margin-right:20px;}
+    .bottom_t dl:first-child {margin-left:270px;}
+        .bottom_t dl:first-child dt a {height:76px; width:76px; background:url("../img/bottom-bg.png") 0 0 no-repeat; margin-left:20px;}
+        .bottom_t dl dd {font-size:18px; margin-top:15px;}
+        .bottom_t dl:nth-child(2) dt a {height:76px; width:76px; background:url("../img/bottom-bg.png") 0 -106px no-repeat; margin-left:12px;}
+        .bottom_t dl:last-child dt a {height:76px; width:76px; background:url("../img/bottom-bg.png") 0 -212px no-repeat;}
+        .bottom_t dl dd a:hover {color:rgb(102,102,102);}
+    .bottom .bottom_b {height:190px; width:700px; overflow:hidden; padding-top:20px;}
+        .bottom_b div {float:left; margin-right:40px;}
+        .bottom_b dl {float:left; margin-right:18px;}
+        .bottom_b dl:last-child {margin-right:0;}
+            .bottom_b dl dd {font-size:18px; margin-bottom:6px; color:#888888;}
+        .bottom_b a {margin-top:13px;}
+        .bottom_b div a:hover {color:rgb(102,102,102);}
+        .bottom_b img {width:100px; height:100px;}
+        .bottom h3 {font-weight:normal; font-size:18px; color:#888888;}
+
+/*footer*/
+.footer {height:109px; padding-top:35px;}
+    .footer img {float:left;}
+    .footer p {color:#888888; font-size:14px;}
+    .footer_t {margin-left:230px;}
+        .footer_t a {float:left; height:12px; line-height:12px;}
+        .footer_t span {float:left; margin:0 12px; height:12px; line-height:12px;}
+    .footer_c {margin-left:202px; margin-bottom:20px;}
+        .footer_c a {float:left; margin-right:5px;}
+    .footer_b {margin-left:261px;}
+        .footer_b a {font-size:12px;}
+            .footer_b a:last-child span {float:left; margin-top:5px;}
+            .footer_b a img {margin-right:25px;}
+            .footer_b a:last-child img {margin-right:1px; margin-top:5px;}
+

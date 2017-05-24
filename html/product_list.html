@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product_list</title>
+    <link rel="stylesheet" type="text/css" href="../style/public.css"/>
+    <link rel="stylesheet" type="text/css" href="../style/product_list/css/product_list.css"/>
+    <script type="text/javascript" src="../js/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="../js/public/public.js"></script>
+    <script type="text/javascript" src="../js/product_list/product_list.js"></script>
+</head>
+<body>
+<!--导航条-->
+<ul class="nav">
+    <li class="menuItemli"><a href="javascript:;">首&nbsp;页</a></li>
+    <!--二级菜单-->
+    <ul class="subNav">
+        <li></li>
+        <li><a href="javascript:;">维您</a></li>
+        <li><a href="javascript:;">LA CELLER</a></li>
+        <li><a href="javascript:;">秘密花园</a></li>
+        <li><a href="javascript:;">SONOKO</a></li>
+    </ul>
+    <li class="menuItemli"><a href="javascript:;">品牌系列</a></li>
+    <li class="menuItemli"><a href="javascript:;" style="background:rgb(219,54,111)">美容护肤</a></li>
+    <li class="menuItemli"><a href="javascript:;">健康养生</a></li>
+    <li class="menuItemli"><a href="javascript:;">家居日用</a></li>
+    <li class="menuItemli"><a href="javascript:;">积分换购</a></li>
+    <li class="menuItemli2"><a href="javascript:;">VIP<br/>会员专区</a></li>
+    <li class="menuItemli"><a href="javascript:;">关于麦考林</a></li>
+</ul>
+
+<!--head-->
+<div class="head layout" id="top">
+    <img src="../img/head_logo.png" class="logo"/>
+    <div class="head_r">
+        <a href="javascript:;"></a><span>|</span><a href="javascript:;">登录</a><span>|</span><a href="javascript:;">注册</a><span>|</span><a href="javascript:;">我的账户</a><span>|</span><a href="javascript:;"></a><img src="../img/head_call.png" class="head_phone"/>
+    </div>
+</div>
+
+
+<!--rightSider-->
+<div class="rightSider">
+    <a href="javascript:;"><img src="../img/rightSider_01.png"/></a>
+    <img src="../img/rightSider_02.png"/>
+    <a href="javascript:;"><img src="../img/rightSider_03.jpg"/></a>
+    <a href="#top" style="display:none"><img src="../img/rightSider_04.png"/></a>
+</div>
+<div class="consult"><img src="../img/rightSider_consult.png"/></div>
+<script type="text/javascript">
+    window.onload = function(){
+        document.onscroll = function(){
+            var scrollTop = Number(document.documentElement.scrollTop || document.body.scrollTop);
+            var public_rightSider = document.getElementsByClassName("rightSider")[0];
+            var public_top = public_rightSider.getElementsByTagName("a")[2];
+            if(scrollTop < 70){
+                public_top.style.display = "none";
+            }else if(scrollTop > 70){
+                public_top.style.display = "block";
+            }
+        };
+    };
+</script>
+
+<!--product_list_nav-->
+<div class="product_list_nav layout">
+    <div class="product_list_nav_top">
+        <a href="javascript:;">首页</a><span style="float:left;">&nbsp;&gt;&nbsp;</span><a href="javascript:;">美容护肤</a>
+    </div>
+    <div class="product_list_nav_brand">
+        <h3>品&nbsp;&nbsp;&nbsp;&nbsp;牌:</h3>
+        <span><p></p></span>
+    </div>
+    <div class="product_list_nav_classes">
+        <h3>分&nbsp;&nbsp;&nbsp;&nbsp;类:</h3>
+    </div>
+</div>
+
+<!--product_list_show-->
+<div class="product_list_show layout">
+    <div class="product_list_show_nav">
+        <h2>排序</h2>
+        <a href="javascript:;" style="background:#ffffff; color:#333333;">销量<b></b></a>
+        <a href="javascript:;">价格<b></b></a>
+        <a href="javascript:;">最新<b></b></a>
+    </div>
+    <div class="product_list_showStage">
+
+    </div>
+    <div class="product_list_show_page">
+        <a href="javascript:;" style="background:#d10048; color:#ffffff;">1</a>
+        <a href="javascript:;">2</a>
+        <a href="javascript:;">3</a>
+        <a href="javascript:;">4</a>
+        <a href="javascript:;">5</a>
+        <a href="javascript:;">6</a>
+        <a href="javascript:;">7</a>
+        <a href="javascript:;">8</a>
+        <a href="javascript:;">9</a>
+        <a href="javascript:;">10</a>
+        <a href="javascript:;">下一页</a>
+    </div>
+</div>
+
+<!--bottom-->
+<div class="bottom">
+    <div class="bottom_t layout">
+        <dl class="bottom_l">
+            <dt><a href="javascript:;"></a></dt>
+            <dd><a href="javascript:;">100%正品保证</a></dd>
+        </dl>
+        <dl class="bottom_c">
+            <dt><a href="javascript:;"></a></dt>
+            <dd><a href="javascript:;">专业在线客服</a></dd>
+        </dl>
+        <dl class="bottom_r">
+            <dt><a href="javascript:;"></a></dt>
+            <dd><a href="javascript:;">满99包邮</a></dd>
+        </dl>
+    </div>
+
+    <div class="bottom_b layout">
+        <div>
+            <h3>新手指南</h3>
+            <a href="javascript:;">新会员注册</a>
+            <a href="javascript:;">购物演示</a>
+            <a href="javascript:;">常见问题</a>
+        </div>
+        <div>
+            <h3>付款方式</h3>
+            <a href="javascript:;">银行卡支付</a>
+            <a href="javascript:;">支付宝支付</a>
+            <a href="javascript:;">余额支付</a>
+        </div>
+        <div>
+            <h3>售后服务</h3>
+            <a href="javascript:;">退换货政策</a>
+            <a href="javascript:;">退换货流程</a>
+            <a href="javascript:;">退款流程</a>
+            <a href="javascript:;">发票说明</a>
+        </div>
+        <div>
+            <h3>特色服务</h3>
+            <a href="javascript:;">贵宾专区</a>
+            <a href="javascript:;">在线客服</a>
+        </div>
+        <dl>
+            <dd>麦考林生活家</dd>
+            <dt><img src="../img/bottom_dingyue.jpg"/></dt>
+        </dl>
+        <dl>
+            <dd>麦考林服务号</dd>
+            <dt><img src="../img/bottom_fuwu.jpg"/></dt>
+        </dl>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer layout">
+    <div class="footer_t"><a href="javascript:;">关于麦考林</a><span>|</span><a href="javascript:;">INVESTOR RELATIONS</a><span>|</span><a href="javascript:;">联系我们</a><span>|</span><a href="javascript:;">服务中心</a><span>|</span><a href="javascript:;">加入我们</a>
+    </div><br/>
+    <div class="footer_c">
+        <a href="javascript:;"><img src="../img/footer_c.png"/></a><p>沪ICP备05003606号Copyright©2011-2015 MecoxLane Inc. All Rights Reserved</p>
+    </div>
+    <div class="footer_b">
+        <a href="javascript:;"><img src="../img/footer_b_1.jpg"/></a>
+        <a href="javascript:;"><img src="../img/footer_b_2.jpg"/></a>
+        <a href="javascript:;"><img src="../img/footer_b_3.png"/><span>沪公网安备 31010402000234号</span></a>
+    </div>
+</div>
+</body>
+</html>
