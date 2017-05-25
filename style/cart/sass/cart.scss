@@ -1,7 +1,27 @@
+.head_r {
+  #buy {
+    position:relative;
+    span {
+      width:18px;
+      height:18px;
+      position:absolute;
+      right:-15px;
+      top:-10px;
+      background:#d10048;
+      color:#ffffff;
+      z-index:100;
+      border-radius:9px;
+      line-height:18px;
+      text-align:center;
+    }
+  }
+}
 .cart_info {
   width:922px;
   background:#ffffff;
   padding:25px 30px 40px 30px;
+  position:relative;
+  z-index:1;
   p {
     height:20px;
     background:url("../../../img/cart_icon.png") no-repeat -221px 0;
@@ -14,6 +34,63 @@
     width:922px;
     margin-bottom:20px;
     border:1px #eeeeee solid;
+    border-collapse:collapse;
+    font-size:14px;
+    color:#999999;
+    tr {
+      background:rgb(255,253,235);
+      td{
+        border-bottom:1px #eeeeee solid;
+        text-align:left;
+      }
+      .del:hover {
+        color:#000;
+      }
+      .cart_plus_minus {
+        a {
+          float:left;
+          width:25px;
+          height:25px;
+          border:1px #eeeeee solid;
+          line-height:25px;
+          text-align:center;
+        }
+        input {
+          float:left;
+          width:35px;
+          height:23px;
+          border:1px #eeeeee solid;
+          line-height:25px;
+          text-align:center;
+        }
+      }
+      .cart_dl {
+        height:135px;
+
+        span {
+          float:left;
+          margin-left:10px;
+          font-size:14px;
+          color:#000;
+          cursor:pointer;
+        }
+        span:hover {
+          color:#d10048;
+        }
+        img {
+          width:88px;
+          height:88px;
+          float:left;
+          border:1px #eeeeee solid;
+        }
+      }
+    }
+    .cart_info_none {
+      display:none;
+      td {
+        text-align:center;
+      }
+    }
   }
   .cart_info_account {
     height:48px;
@@ -29,10 +106,30 @@
       font-style:normal;
       margin-right:24px;
     }
+    .cart_result {
+      float:right;
+      width:350px;
+      height:50px;
+      position:relative;
+      span {
+        position:absolute;
+        top:0;
+        left:13px;
+        font-size:20px;
+        color:#f43777;
+      }
+      h2 {
+        float:right;
+        margin-top:-50px;
+        color:#f43777;
+        font-size:22px;
+      }
+    }
     a {
       float:left;
     }
     span {
+      display:inline;
       float:left;
       margin:0 8px;
     }

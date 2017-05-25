@@ -1,7 +1,24 @@
+.head_r #buy {
+  position: relative; }
+  .head_r #buy span {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    right: -15px;
+    top: -10px;
+    background: #d10048;
+    color: #ffffff;
+    z-index: 100;
+    border-radius: 9px;
+    line-height: 18px;
+    text-align: center; }
+
 .cart_info {
   width: 922px;
   background: #ffffff;
-  padding: 25px 30px 40px 30px; }
+  padding: 25px 30px 40px 30px;
+  position: relative;
+  z-index: 1; }
   .cart_info p {
     height: 20px;
     background: url("../../../img/cart_icon.png") no-repeat -221px 0;
@@ -12,7 +29,50 @@
   .cart_info table {
     width: 922px;
     margin-bottom: 20px;
-    border: 1px #eeeeee solid; }
+    border: 1px #eeeeee solid;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #999999; }
+    .cart_info table tr {
+      background: #fffdeb; }
+      .cart_info table tr td {
+        border-bottom: 1px #eeeeee solid;
+        text-align: left; }
+      .cart_info table tr .del:hover {
+        color: #000; }
+      .cart_info table tr .cart_plus_minus a {
+        float: left;
+        width: 25px;
+        height: 25px;
+        border: 1px #eeeeee solid;
+        line-height: 25px;
+        text-align: center; }
+      .cart_info table tr .cart_plus_minus input {
+        float: left;
+        width: 35px;
+        height: 23px;
+        border: 1px #eeeeee solid;
+        line-height: 25px;
+        text-align: center; }
+      .cart_info table tr .cart_dl {
+        height: 135px; }
+        .cart_info table tr .cart_dl span {
+          float: left;
+          margin-left: 10px;
+          font-size: 14px;
+          color: #000;
+          cursor: pointer; }
+        .cart_info table tr .cart_dl span:hover {
+          color: #d10048; }
+        .cart_info table tr .cart_dl img {
+          width: 88px;
+          height: 88px;
+          float: left;
+          border: 1px #eeeeee solid; }
+    .cart_info table .cart_info_none {
+      display: none; }
+      .cart_info table .cart_info_none td {
+        text-align: center; }
   .cart_info .cart_info_account {
     height: 48px;
     background: #fafafa;
@@ -25,9 +85,26 @@
       float: left;
       font-style: normal;
       margin-right: 24px; }
+    .cart_info .cart_info_account .cart_result {
+      float: right;
+      width: 350px;
+      height: 50px;
+      position: relative; }
+      .cart_info .cart_info_account .cart_result span {
+        position: absolute;
+        top: 0;
+        left: 13px;
+        font-size: 20px;
+        color: #f43777; }
+      .cart_info .cart_info_account .cart_result h2 {
+        float: right;
+        margin-top: -50px;
+        color: #f43777;
+        font-size: 22px; }
     .cart_info .cart_info_account a {
       float: left; }
     .cart_info .cart_info_account span {
+      display: inline;
       float: left;
       margin: 0 8px; }
     .cart_info .cart_info_account button {
