@@ -51,8 +51,12 @@ $(function(){
         $.each(oProduct_list_imgSrc,function(k){
             $(".product_list_showStage").append("<dl data-good-id='sp" + k + "'><dt><img src=" + oProduct_list_imgSrc[k] + "/></dt><dd>" + "<p>" + oProduct_list_productName[k] + "</p><i>" + parseFloat( oProduct_list_price[k]) + "</i><a href='javascript:;' class='addToCart'></a></dd></dl>")
         });
+        //只做第一个的页面链接效果，后面的商品信息点击链接也是该页面
+        $(".product_list_showStage dl dt,.product_list_showStage dl dd p").click(function(){
+            location.href = "product.html";
+        });
         //购物车cart相关操作
-        //1.加载已有的购物信息
+        //1.加载已有的购物信息,使顶部的购物车商品数量信息实时更新
         loadCart();
         //2.给购物车添加点击事件
         $("#buy").click(function(){
@@ -106,7 +110,7 @@ $(function(){
             cartStr = convertCartObjToStr(cartObj);
             //存入cookie
             $.cookie("cart",cartStr,{empires : 7,path : "/"});
-            //每次点击加入购物车的元素数量实时变化
+            //每次点击加入购物车事件顶部的购物车的数量实时变化
             loadCart();
         });
 

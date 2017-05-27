@@ -45,4 +45,22 @@ $(function(){
             "z-index":"1"
         },500);
     });
+
+    //头部搜索按钮事件,退出时有两个事件可以触发，需要对头部搜索的高度进行一个判断
+    $(".head_search_icon").click(function(){
+        if($(".head_search").height() == 0){
+            $(".head_search").animate({
+                "height" : "80px"
+            },500);
+        }else if($(".head_search").height() == 80){
+            $(".head_search").animate({
+                "height" : "0"
+            },500);
+        }
+    });
+    $(".head_search_out").click(function(){
+        $(".head_search").animate({
+            "height" : "0"
+        },500);
+    });
 });

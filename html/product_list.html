@@ -15,7 +15,7 @@
 <div class="body_mark"></div>
 <!--导航条-->
 <ul class="nav">
-    <li class="menuItemli"><a href="javascript:;">首&nbsp;页</a></li>
+    <li class="menuItemli"><a href="javascript:;" onclick="location.href='index.html'">首&nbsp;页</a></li>
     <!--二级菜单-->
     <ul class="subNav">
         <li></li>
@@ -34,10 +34,15 @@
 </ul>
 
 <!--head-->
+<div class="head_search">
+    <input type="text" class="head_search_text" placeholder="热门搜索：洁面 控油 祛痘">
+    <a href="javascript:;" class="head_search_btn">搜索</a>
+    <a href="javascript:;" class="head_search_out">X</a>
+</div>
 <div class="head layout" id="top">
     <img src="../img/head_logo.png" class="logo"/>
     <div class="head_r">
-        <a href="javascript:;"></a><span>|</span><a href="javascript:;">登录</a><span>|</span><a href="javascript:;">注册</a><span>|</span><a href="javascript:;">我的账户</a><span>|</span><a href="javascript:;" id="buy"><span>0</span></a><img src="../img/head_call.png" class="head_phone"/>
+        <a href="javascript:;" class="head_search_icon"></a><span>|</span><a href="javascript:;" onclick="location.href='login.html'">登录</a><span>|</span><a href="javascript:;" onclick="location.href='register.html'">注册</a><span>|</span><a href="javascript:;" onclick="location.href='login.html'">我的账户</a><span>|</span><a href="javascript:;" id="buy"><span>0</span></a><img src="../img/head_call.png" class="head_phone"/>
     </div>
 </div>
 
@@ -68,7 +73,7 @@
 <!--product_list_nav-->
 <div class="product_list_nav layout">
     <div class="product_list_nav_top">
-        <a href="javascript:;">首页</a><span style="float:left;">&nbsp;&gt;&nbsp;</span><a href="javascript:;">美容护肤</a>
+        <a href="javascript:;" onclick="location.href='index.html'">首页</a><span style="float:left;">&nbsp;&gt;&nbsp;</span><a href="javascript:;">美容护肤</a>
     </div>
     <div class="product_list_nav_brand">
         <h3>品&nbsp;&nbsp;&nbsp;&nbsp;牌:</h3>

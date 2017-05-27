@@ -7,7 +7,7 @@ a {text-decoration:none; display:block; color:#888888;}
 li {list-style:none;}
 .layout {width:982px; margin:0 auto;}
 /*nav*/
-.nav {width:74px; height:100%; background:#d10048; position:fixed; z-index:2;}
+.nav {width:74px; height:100%; background:#d10048; position:fixed; z-index:99;}
     .nav li.menuItemli {width:74px; height:45px; text-align:center; background:url("../img/menuLine.png") center bottom no-repeat;}
     .nav li.menuItemli2 {padding-top:5px; text-align:center; width:74px; height:45px; background:url("../img/menuLine.png") center bottom no-repeat;}
     .nav li:first-child {padding-top:10px;}
@@ -21,6 +21,50 @@ li {list-style:none;}
             .nav .subNav li a {display:block; height:44px; width:74px; color:#fff; line-height:44px; text-align:center; font-size:12px;}
 
 /*head*/
+.head_search {
+    height:0;
+    width:100%;
+    background:rgba(168,168,168,.5);
+    position:relative;
+    z-index:2;
+    overflow:hidden;}
+.head_search .head_search_text {
+    display:block;
+    width:590px;
+    height:38px;
+    background:#ffffff;
+    margin-left:280px;
+    border:none;
+    outline:none;
+    line-height:40px;
+    text-indent:20px;
+    float:left;
+    margin-top:20px;
+}
+.head_search .head_search_btn {
+    width:110px;
+    height:40px;
+    background:#000;
+    color:#fff;
+    float:left;
+    line-height:40px;
+    text-align:center;
+    font-size:18px;
+    margin-top:20px;
+}
+.head_search .head_search_out {
+    width:24px;
+    height:24px;
+    background:rgb(80,73,71);
+    border-radius:12px;
+    line-height:24px;
+    text-align:center;
+    color: #eeeeee;
+    float:left;
+    margin-left:15px;
+    margin-top:28px;
+}
+
 .head {height:70px;}
     .head .logo {margin-top:19px; float:left;}
     .head .head_r {width:377px; float:right; margin-top:33px;}
@@ -30,7 +74,7 @@ li {list-style:none;}
         .head .head_r a:nth-last-child(2) {width:20px; height:17px; background:url("../img/public-bg.png") 0 -48px no-repeat; margin-right:15px;}
 
 /*rightSider*/
-.rightSider {width:54px; position:fixed; right:10px; top:65px;}
+.rightSider {width:54px; position:fixed; right:10px; top:65px; z-index:100;}
 .consult {height:92px; width:231px; position:fixed; right:149px; top:156px; opacity:0; filter:alpha(opacity=0);}
 
 /*bottom*/

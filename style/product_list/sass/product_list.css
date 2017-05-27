@@ -127,7 +127,8 @@
       width: 215px;
       float: left;
       margin-left: 23px;
-      margin-top: 15px; }
+      margin-top: 15px;
+      cursor: pointer; }
       .product_list_show .product_list_showStage dl dt {
         width: 155px;
         height: 208px;
